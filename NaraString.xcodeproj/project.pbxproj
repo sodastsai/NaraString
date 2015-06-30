@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE21647E1B421664006643A5 /* PathlibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEDCFDA1B419F8300E0402B /* PathlibTests.m */; };
+		FE21647F1B421664006643A5 /* EnumerateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEDCFD31B41845D00E0402B /* EnumerateTests.m */; };
+		FE2164811B421664006643A5 /* NaraString.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEDCFAC1B4180DC00E0402B /* NaraString.framework */; };
+		FE21648A1B421789006643A5 /* NSString+NaraPathlib.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEDCFD71B419F6900E0402B /* NSString+NaraPathlib.m */; };
+		FE21648B1B421789006643A5 /* NSString+NaraEnumerate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEDCFD01B41843800E0402B /* NSString+NaraEnumerate.m */; };
+		FE21648E1B421789006643A5 /* NaraString.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEDCFB11B4180DC00E0402B /* NaraString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE21648F1B421789006643A5 /* NSString+NaraEnumerate.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEDCFCF1B41843800E0402B /* NSString+NaraEnumerate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE2164901B421789006643A5 /* NSString+NaraPathlib.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEDCFD61B419F6900E0402B /* NSString+NaraPathlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEEDCFB21B4180DC00E0402B /* NaraString.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEDCFB11B4180DC00E0402B /* NaraString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEEDCFB81B4180DC00E0402B /* NaraString.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEDCFAC1B4180DC00E0402B /* NaraString.framework */; };
+		FEEDCFD11B41843800E0402B /* NSString+NaraEnumerate.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEDCFCF1B41843800E0402B /* NSString+NaraEnumerate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEEDCFD21B41843800E0402B /* NSString+NaraEnumerate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEDCFD01B41843800E0402B /* NSString+NaraEnumerate.m */; };
+		FEEDCFD41B41845D00E0402B /* EnumerateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEDCFD31B41845D00E0402B /* EnumerateTests.m */; };
+		FEEDCFD81B419F6900E0402B /* NSString+NaraPathlib.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEDCFD61B419F6900E0402B /* NSString+NaraPathlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEEDCFD91B419F6900E0402B /* NSString+NaraPathlib.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEDCFD71B419F6900E0402B /* NSString+NaraPathlib.m */; };
+		FEEDCFDB1B419F8300E0402B /* PathlibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEDCFDA1B419F8300E0402B /* PathlibTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE2164971B4217F9006643A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEEDCFA31B4180DC00E0402B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE2164881B421789006643A5;
+			remoteInfo = "NaraString-OSX";
+		};
+		FEEDCFB91B4180DC00E0402B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEEDCFA31B4180DC00E0402B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEEDCFAB1B4180DC00E0402B;
+			remoteInfo = NaraString;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE2164861B421664006643A5 /* NaraStringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaraStringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE2164951B421789006643A5 /* NaraString.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NaraString.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEEDCFAC1B4180DC00E0402B /* NaraString.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NaraString.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEEDCFB01B4180DC00E0402B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEEDCFB11B4180DC00E0402B /* NaraString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NaraString.h; sourceTree = "<group>"; };
+		FEEDCFB71B4180DC00E0402B /* NaraStringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaraStringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEEDCFBD1B4180DC00E0402B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEEDCFCF1B41843800E0402B /* NSString+NaraEnumerate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NaraEnumerate.h"; sourceTree = "<group>"; };
+		FEEDCFD01B41843800E0402B /* NSString+NaraEnumerate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NaraEnumerate.m"; sourceTree = "<group>"; };
+		FEEDCFD31B41845D00E0402B /* EnumerateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnumerateTests.m; sourceTree = "<group>"; };
+		FEEDCFD51B419D4800E0402B /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; };
+		FEEDCFD61B419F6900E0402B /* NSString+NaraPathlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NaraPathlib.h"; sourceTree = "<group>"; };
+		FEEDCFD71B419F6900E0402B /* NSString+NaraPathlib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NaraPathlib.m"; sourceTree = "<group>"; };
+		FEEDCFDA1B419F8300E0402B /* PathlibTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathlibTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE2164801B421664006643A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE2164811B421664006643A5 /* NaraString.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE21648C1B421789006643A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEEDCFA81B4180DC00E0402B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEEDCFB41B4180DC00E0402B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEEDCFB81B4180DC00E0402B /* NaraString.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEEDCFA21B4180DC00E0402B = {
+			isa = PBXGroup;
+			children = (
+				FEEDCFAE1B4180DC00E0402B /* NaraString */,
+				FEEDCFBB1B4180DC00E0402B /* NaraStringTests */,
+				FEEDCFAD1B4180DC00E0402B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEEDCFAD1B4180DC00E0402B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEEDCFAC1B4180DC00E0402B /* NaraString.framework */,
+				FEEDCFB71B4180DC00E0402B /* NaraStringTests.xctest */,
+				FE2164861B421664006643A5 /* NaraStringTests.xctest */,
+				FE2164951B421789006643A5 /* NaraString.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEEDCFAE1B4180DC00E0402B /* NaraString */ = {
+			isa = PBXGroup;
+			children = (
+				FEEDCFB11B4180DC00E0402B /* NaraString.h */,
+				FEEDCFCF1B41843800E0402B /* NSString+NaraEnumerate.h */,
+				FEEDCFD01B41843800E0402B /* NSString+NaraEnumerate.m */,
+				FEEDCFD61B419F6900E0402B /* NSString+NaraPathlib.h */,
+				FEEDCFD71B419F6900E0402B /* NSString+NaraPathlib.m */,
+				FEEDCFAF1B4180DC00E0402B /* Supporting Files */,
+				FEEDCFD51B419D4800E0402B /* Playground.playground */,
+			);
+			path = NaraString;
+			sourceTree = "<group>";
+		};
+		FEEDCFAF1B4180DC00E0402B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEEDCFB01B4180DC00E0402B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEEDCFBB1B4180DC00E0402B /* NaraStringTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEEDCFD31B41845D00E0402B /* EnumerateTests.m */,
+				FEEDCFDA1B419F8300E0402B /* PathlibTests.m */,
+				FEEDCFBC1B4180DC00E0402B /* Supporting Files */,
+			);
+			path = NaraStringTests;
+			sourceTree = "<group>";
+		};
+		FEEDCFBC1B4180DC00E0402B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEEDCFBD1B4180DC00E0402B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FE21648D1B421789006643A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE21648E1B421789006643A5 /* NaraString.h in Headers */,
+				FE21648F1B421789006643A5 /* NSString+NaraEnumerate.h in Headers */,
+				FE2164901B421789006643A5 /* NSString+NaraPathlib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEEDCFA91B4180DC00E0402B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEEDCFB21B4180DC00E0402B /* NaraString.h in Headers */,
+				FEEDCFD11B41843800E0402B /* NSString+NaraEnumerate.h in Headers */,
+				FEEDCFD81B419F6900E0402B /* NSString+NaraPathlib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FE21647A1B421664006643A5 /* NaraStringTests-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE2164831B421664006643A5 /* Build configuration list for PBXNativeTarget "NaraStringTests-OSX" */;
+			buildPhases = (
+				FE21647D1B421664006643A5 /* Sources */,
+				FE2164801B421664006643A5 /* Frameworks */,
+				FE2164821B421664006643A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE2164981B4217F9006643A5 /* PBXTargetDependency */,
+			);
+			name = "NaraStringTests-OSX";
+			productName = NaraStringTests;
+			productReference = FE2164861B421664006643A5 /* NaraStringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE2164881B421789006643A5 /* NaraString-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE2164921B421789006643A5 /* Build configuration list for PBXNativeTarget "NaraString-OSX" */;
+			buildPhases = (
+				FE2164891B421789006643A5 /* Sources */,
+				FE21648C1B421789006643A5 /* Frameworks */,
+				FE21648D1B421789006643A5 /* Headers */,
+				FE2164911B421789006643A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NaraString-OSX";
+			productName = NaraString;
+			productReference = FE2164951B421789006643A5 /* NaraString.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FEEDCFAB1B4180DC00E0402B /* NaraString-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEEDCFC21B4180DC00E0402B /* Build configuration list for PBXNativeTarget "NaraString-iOS" */;
+			buildPhases = (
+				FEEDCFA71B4180DC00E0402B /* Sources */,
+				FEEDCFA81B4180DC00E0402B /* Frameworks */,
+				FEEDCFA91B4180DC00E0402B /* Headers */,
+				FEEDCFAA1B4180DC00E0402B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NaraString-iOS";
+			productName = NaraString;
+			productReference = FEEDCFAC1B4180DC00E0402B /* NaraString.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FEEDCFB61B4180DC00E0402B /* NaraStringTests-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEEDCFC51B4180DC00E0402B /* Build configuration list for PBXNativeTarget "NaraStringTests-iOS" */;
+			buildPhases = (
+				FEEDCFB31B4180DC00E0402B /* Sources */,
+				FEEDCFB41B4180DC00E0402B /* Frameworks */,
+				FEEDCFB51B4180DC00E0402B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEEDCFBA1B4180DC00E0402B /* PBXTargetDependency */,
+			);
+			name = "NaraStringTests-iOS";
+			productName = NaraStringTests;
+			productReference = FEEDCFB71B4180DC00E0402B /* NaraStringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEEDCFA31B4180DC00E0402B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = sodas;
+				TargetAttributes = {
+					FEEDCFAB1B4180DC00E0402B = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					FEEDCFB61B4180DC00E0402B = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = FEEDCFA61B4180DC00E0402B /* Build configuration list for PBXProject "NaraString" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FEEDCFA21B4180DC00E0402B;
+			productRefGroup = FEEDCFAD1B4180DC00E0402B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEEDCFAB1B4180DC00E0402B /* NaraString-iOS */,
+				FE2164881B421789006643A5 /* NaraString-OSX */,
+				FEEDCFB61B4180DC00E0402B /* NaraStringTests-iOS */,
+				FE21647A1B421664006643A5 /* NaraStringTests-OSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE2164821B421664006643A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2164911B421789006643A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEEDCFAA1B4180DC00E0402B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEEDCFB51B4180DC00E0402B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE21647D1B421664006643A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE21647E1B421664006643A5 /* PathlibTests.m in Sources */,
+				FE21647F1B421664006643A5 /* EnumerateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2164891B421789006643A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE21648A1B421789006643A5 /* NSString+NaraPathlib.m in Sources */,
+				FE21648B1B421789006643A5 /* NSString+NaraEnumerate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEEDCFA71B4180DC00E0402B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEEDCFD91B419F6900E0402B /* NSString+NaraPathlib.m in Sources */,
+				FEEDCFD21B41843800E0402B /* NSString+NaraEnumerate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEEDCFB31B4180DC00E0402B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEEDCFDB1B419F8300E0402B /* PathlibTests.m in Sources */,
+				FEEDCFD41B41845D00E0402B /* EnumerateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE2164981B4217F9006643A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE2164881B421789006643A5 /* NaraString-OSX */;
+			targetProxy = FE2164971B4217F9006643A5 /* PBXContainerItemProxy */;
+		};
+		FEEDCFBA1B4180DC00E0402B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEEDCFAB1B4180DC00E0402B /* NaraString-iOS */;
+			targetProxy = FEEDCFB91B4180DC00E0402B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FE2164841B421664006643A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NaraStringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.sodas.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FE2164851B421664006643A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NaraStringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.sodas.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FE2164931B421789006643A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NaraString/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.sodas.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_MODULE_NAME = "$(PROJECT_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FE2164941B421789006643A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NaraString/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.sodas.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_MODULE_NAME = "$(PROJECT_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FEEDCFC01B4180DC00E0402B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FEEDCFC11B4180DC00E0402B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FEEDCFC31B4180DC00E0402B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NaraString/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.sodas.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_MODULE_NAME = "$(PROJECT_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FEEDCFC41B4180DC00E0402B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NaraString/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.sodas.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_MODULE_NAME = "$(PROJECT_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FEEDCFC61B4180DC00E0402B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NaraStringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.sodas.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
+			};
+			name = Debug;
+		};
+		FEEDCFC71B4180DC00E0402B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NaraStringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.sodas.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE2164831B421664006643A5 /* Build configuration list for PBXNativeTarget "NaraStringTests-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE2164841B421664006643A5 /* Debug */,
+				FE2164851B421664006643A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE2164921B421789006643A5 /* Build configuration list for PBXNativeTarget "NaraString-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE2164931B421789006643A5 /* Debug */,
+				FE2164941B421789006643A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEEDCFA61B4180DC00E0402B /* Build configuration list for PBXProject "NaraString" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEEDCFC01B4180DC00E0402B /* Debug */,
+				FEEDCFC11B4180DC00E0402B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEEDCFC21B4180DC00E0402B /* Build configuration list for PBXNativeTarget "NaraString-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEEDCFC31B4180DC00E0402B /* Debug */,
+				FEEDCFC41B4180DC00E0402B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEEDCFC51B4180DC00E0402B /* Build configuration list for PBXNativeTarget "NaraStringTests-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEEDCFC61B4180DC00E0402B /* Debug */,
+				FEEDCFC71B4180DC00E0402B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEEDCFA31B4180DC00E0402B /* Project object */;
+}
